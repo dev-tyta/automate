@@ -21,3 +21,10 @@ print("Is 415-456-6444 a phone number?")
 print(phone_num("415-456-6444"))
 print("Is Moshi moshi a phone number?")
 print(phone_num("Moshi moshi"))
+
+message = 'Call me at 415-555-1011 tomorrow. 415-555-9999 is my office.'
+for i in range(len(message)):
+    chunk = message[i:i+12]
+    if phone_num(chunk):
+        print('Phone number found: ' + chunk)
+print('Done')
