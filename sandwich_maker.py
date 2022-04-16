@@ -8,7 +8,7 @@ bread_type = pyip.inputMenu(choices=bread_choice, prompt="Pick Bread Choice\n")
 protein_choice = ["Chicken", "Turkey", "Ham", "Tofu"]
 protein_type = pyip.inputMenu(protein_choice, prompt="What type of protein would you like?\n")
 
-cheese = pyip.inputYesNo("DO you want Cheese?\n")
+cheese = pyip.inputYesNo("Do you want Cheese?\n")
 if cheese.lower() == "yes":
     cheese_choice = ["Cheddar", "Swiss", "Mozzarella"]
     cheese_type = pyip.inputMenu(choices=cheese_choice, prompt="How would you love the cheese?\n")
@@ -33,4 +33,4 @@ total_cost = (cost.get(bread_type) + cost.get(protein_type) + cost.get(cheese_ty
 
 time.sleep(5)
 
-print(f"Total Cost of pizza = {total_cost}")
+print(f"Total Cost of pizza = ${total_cost}")
