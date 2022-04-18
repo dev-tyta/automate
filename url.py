@@ -20,3 +20,5 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix',
 
 shelfData = shelve.open("mydata")
 shelfData["capitals"] = capitals
+
+shelfData.close()
