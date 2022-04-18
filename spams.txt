@@ -1,0 +1,12 @@
+This is a new text file. Test different stuff with it.
+ Trying to embed a python into it.
+ Let's 
+see what I can come up with though ['https://pyinputplus.readthedocs.io/.']So I figured it out though, Now let's see how to create a markdown using the open function.So I figured it out though, Now let's see how to create a markdown using the open function.
+So I figured it out though, Now let's see how to create a markdown using the open function.
+So I figured it out though, Now let's see how to create a markdown using the open function.
+So I figured it out though, Now let's see how to create a markdown using the open function.
+So I figured it out though, Now let's see how to create a markdown using the open function.
+So I figured it out though, Now let's see how to create a markdown using the open function.
+So I figured it out though, Now let's see how to create a markdown using the open function.
+So I figured it out though, Now let's see how to create a markdown using the open function.
+So I figured it out though, Now let's see how to create a markdown using the open function.
