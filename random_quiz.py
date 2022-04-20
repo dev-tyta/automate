@@ -20,10 +20,11 @@ for quizNum in range(35):
         del wrong_ans[wrong_ans.index(cor_ans)]
         wrong_ans = random.sample(wrong_ans, 3)
         ans_opt = wrong_ans + [cor_ans]
+        random.shuffle(ans_opt)
 
         quiz_file.write(f"{quest_num + 1}. What is the capital of {states[quest_num]}")
         for i in range(4):
-            quiz_file.write(f"      {'ABCD'[i]}. {ans_opt[1]}\n")
+            quiz_file.write(f"      {'ABCD'[i]}. {ans_opt[i]}\n")
         quiz_file.write("\n")
 
         ans_key.write(f"{quest_num + 1}. {'ABCD'[ans_opt.index(cor_ans)]}")
