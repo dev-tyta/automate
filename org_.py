@@ -17,7 +17,7 @@ try:
     print(fr"Zipped file is located under {Path.cwd()}")
 
     while True:     # Loop to continually ask if the person would like to add a file.
-        inp_new = pyip.inputYesNo("Would you like to add more files")
+        inp_new = pyip.inputYesNo("Would you like to add more files: ")
         if inp_new.lower() == "yes":
             path_new = pyip.inputFilepath("Enter path to file to be added: ")
             new_file = zipfile.ZipFile("file2zip", "a")
