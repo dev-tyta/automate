@@ -15,6 +15,9 @@ try:
     new_file.close()
 
     print(fr"Zipped file is located under {Path.cwd()}")
+    inp_new = pyip.inputYesNo("Would you like to add more files")
+    if inp_new.lower() == "yes":
+        new_file.
 
 except FileNotFoundError:
     print("File path does not exist")
