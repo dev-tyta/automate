@@ -2,8 +2,10 @@ import shutil
 import zipfile
 from pathlib import Path
 
-# shutil.move(r".\mcb_data\mydata.dat", r".\capital")
 path = r"C:\Users\Testys\Documents"
+exam_path = path + r"\exam.zip"
+example_zip = zipfile.ZipFile(exam_path)
+new_zip = zipfile.ZipFile("new_zip", "w")
 
-example_zip = zipfile.ZipFile(path + r"\exam.zip")
-print(example_zip.namelist())
+new_zip.write(exam_path, compress_type= zipfile.ZIP_DEFLATED)
+new_zip.close()
