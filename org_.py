@@ -1,11 +1,15 @@
-import shutil
 import zipfile
+import pyinputplus as pyip
 from pathlib import Path
 
-path = r"C:\Users\Testys\Documents"
-exam_path = path + r"\exam.zip"
-example_zip = zipfile.ZipFile(exam_path)
-new_zip = zipfile.ZipFile("new_zip", "w")
+inp_file = pyip.inputFilepath("Input path to file you would like to compress:")
+# Collects Filepath to file to be compressed
 
-new_zip.write(exam_path, compress_type= zipfile.ZIP_DEFLATED)
-new_zip.close()
+path_to_file = Path(inp_file)
+
+new_file = zipfile.ZipFile("file2zip", "w")  # Creates a writeable zipfile
+
+new_file.write(path_to_file, compress_type= zipfile.ZIP_DEFLATED)
+new_file.close()
+
+print(fr"Zipped file is located under {Path.cwd()}")
