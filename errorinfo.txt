@@ -1,4 +1,6 @@
 Traceback (most recent call last):
-  File "C:\Users\Testys\Documents\GitHub\automate\traceback_txt.py", line 4, in <module>
-    raise Exception("This is an error message.")
-Exception: This is an error message.
+  File "C:\Users\Testys\Documents\GitHub\automate\traceback_txt.py", line 17, in <module>
+    switch_lights(mission_16th)
+  File "C:\Users\Testys\Documents\GitHub\automate\traceback_txt.py", line 15, in switch_lights
+    assert 'red' in stoplight.values(), f'Neither light is red! {stoplight}'
+AssertionError: Neither light is red! {'ns': 'green', 'ew': 'yellow'}
