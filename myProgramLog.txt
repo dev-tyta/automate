@@ -16,3 +16,20 @@
 2022-04-28 10:26:15,029 - DEBUG - i is 5, total is 120
 2022-04-28 10:26:15,029 - DEBUG - End of factorial 5 
 2022-04-28 10:26:15,030 - DEBUG - End of program
+2022-04-28 10:37:44,563 - DEBUG - Start of program
+2022-04-28 10:37:44,647 - DEBUG - Start of factorial 5
+2022-04-28 10:37:44,647 - DEBUG - i is 1, total is 1
+2022-04-28 10:37:44,647 - DEBUG - i is 2, total is 2
+2022-04-28 10:37:44,647 - DEBUG - i is 3, total is 6
+2022-04-28 10:37:44,648 - DEBUG - i is 4, total is 24
+2022-04-28 10:37:44,648 - DEBUG - i is 5, total is 120
+2022-04-28 10:37:44,648 - DEBUG - End of factorial 5 
+2022-04-28 10:37:44,755 - DEBUG - End of program
+2022-04-28 10:38:42,739 - DEBUG - Start of program
+2022-04-28 10:38:56,399 - DEBUG - Start of factorial 5
+2022-04-28 10:38:56,400 - DEBUG - i is 1, total is 1
+2022-04-28 10:38:56,400 - DEBUG - i is 2, total is 2
+2022-04-28 10:38:56,401 - DEBUG - i is 3, total is 6
+2022-04-28 10:38:56,402 - DEBUG - i is 4, total is 24
+2022-04-28 10:38:56,402 - DEBUG - i is 5, total is 120
+2022-04-28 10:38:56,402 - DEBUG - End of factorial 5 
