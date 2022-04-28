@@ -1,6 +1,14 @@
 Traceback (most recent call last):
-  File "C:/Users/Testys/Documents/GitHub/automate/traceback_txt.py", line 33, in <module>
-    switch_lights(mission_16th)
-  File "C:/Users/Testys/Documents/GitHub/automate/traceback_txt.py", line 15, in switch_lights
-    assert 'red' in stoplight.values(), f'Neither light is red! {stoplight}'
-AssertionError: Neither light is red! {'ns': 'green', 'ew': 'yellow'}
+  File "C:/Users/Testys/Documents/GitHub/automate/traceback_txt.py", line 32, in <module>
+    factorial(5)
+  File "C:/Users/Testys/Documents/GitHub/automate/traceback_txt.py", line 32, in <module>
+    factorial(5)
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1590, in _pydevd_bundle.pydevd_cython_win32_310_64.ThreadTracer.__call__
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 930, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 921, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 318, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files\JetBrains\PyCharm 2021.3.2\plugins\python\helpers\pydev\pydevd.py", line 1147, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files\JetBrains\PyCharm 2021.3.2\plugins\python\helpers\pydev\pydevd.py", line 1162, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
